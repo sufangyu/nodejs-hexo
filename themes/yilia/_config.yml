@@ -1,0 +1,85 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 方雨_Yu的博客
+subtitle: 关注前端开发，爱生活！
+description:
+author: 方雨_Yu
+language:
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://sufangyu.github.io/
+#root: /
+#permalink: :year/:month/:day/:title/
+#permalink_defaults:
+
+# Header
+menu:
+  主页: /
+  #所有文章: /archives
+  前端: /categories/前端
+  随笔: /categories/随笔
+  关于: /about
+
+# SubNav
+subnav:
+  github: "https://github.com/sufangyu"
+  weibo: "http://www.weibo.com"
+  mail: "mailto:304683191@qq.com"
+  #rss: "#"
+  #zhihu: "#"
+  #douban: "#"  
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# Content
+excerpt_link: 全文
+fancybox: true
+mathjax: true
+
+# 是否开启动画效果
+animate: true
+
+# 是否在新窗口打开链接
+open_in_new: true
+
+# Miscellaneous
+google_analytics: ''
+favicon: /favicon.png
+
+#你的头像url
+avatar: https://avatars0.githubusercontent.com/u/1852629?v=3&s=460
+#是否开启分享
+share: true
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: true
+duoshuo: sufangyu
+#是否开启云标签
+tagcloud: true
+
+#是否开启友情链接
+#不开启——
+#friends: false
+#开启——
+#friends:
+#  奥巴马的博客: http://localhost:4000/
+#  卡卡的美丽传说: http://localhost:4000/
+#  本泽马的博客: http://localhost:4000/
+#  吉格斯的博客: http://localhost:4000/
+#  习大大大不同: http://localhost:4000/
+#  托蒂的博客: http://localhost:4000/
+
+#是否开启“关于我”。
+#不开启——
+#aboutme: false
+#开启——
+#aboutme: 在路上…

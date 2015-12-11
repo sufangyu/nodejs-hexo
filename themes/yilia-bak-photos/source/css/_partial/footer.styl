@@ -1,0 +1,35 @@
+#footer {
+	font-size: 12px;
+	/*font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;*/
+	text-shadow: 0 1px #fff;
+	position: absolute;
+	bottom: 30px;
+	opacity: 0.6;
+	width: 100%;
+	text-align: center;
+	.outer{
+		padding: 0 30px;
+	}
+}
+.footer-left{
+  float: left;
+}
+.footer-right{
+  float: right;
+}
+
+#totop { 
+	position:fixed;
+	z-index:1000;
+	bottom:45px;
+	right:37px;
+	cursor:pointer;
+	& a{
+		opacity:0.6;
+		transition:all 0.5s ease 0s;
+	}
+	& a:hover{
+		opacity:1;
+		transition:all 0.5s ease 0s;
+	}
+}
