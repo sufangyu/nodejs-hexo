@@ -1,15 +1,13 @@
-<div class="gallery">
-  <div class="photoset">
-    <% if (post.photos.length){ %>
-      <% post.photos.forEach(function(photo){ %>
-        <img src="<%- photo %>">
-      <% }); %>
-    <% } else { %>
-      <img src="<%- post.photos %>">
-    <% } %>
-  </div>
-  <div class="control">
-    <div class="prev"></div>
-    <div class="next"></div>
-  </div>
+<div class="owl-demo owl-carousel">
+	<% if (post.photos.length){ %>
+		<% post.photos.forEach(function(photo){ %>
+			<div class="item">
+				<img src="<%- photo %>" />
+			</div>
+		<% }); %>
+	<% } else { %>
+		<div class="item">
+			<img src="<%- post.photos %>" />
+		</div>
+	<% } %>
 </div>

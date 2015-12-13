@@ -1,7 +1,11 @@
 title: 彻底弄懂css中单位px和em,rem的区别
 date: 2015-12-08 13:06:59
-categories: 前端
-tags: [HTML, CSS, 前端]
+categories: 
+	- 前端
+tags: 
+	- HTML
+	- CSS
+	- 前端
 description: 国内的设计师大都喜欢用px，而国外的网站大都喜欢用em和rem，那么三者有什么区别，又各自有什么优劣呢？
 ---
 国内的设计师大都喜欢用px，而国外的网站大都喜欢用em和rem，那么三者有什么区别，又各自有什么优劣呢？
